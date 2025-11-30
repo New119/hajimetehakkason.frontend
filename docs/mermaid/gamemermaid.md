@@ -19,7 +19,7 @@ sequenceDiagram
 
     Note over User, BE: 運命の選択
     User->>FE: 画面クリックで会話進行
-    FE-->>User: 「割り勘」か「おごり」か<br/>選択ボタンを表示
+    FE-->>User: 「割り勘」か「おごり」か<br/>選択ボタンを表示、合計金額の表示
     User->>FE: どちらかのボタンをクリック
     FE->>BE: 選択結果を送信<br/>(POST /choice)
 
